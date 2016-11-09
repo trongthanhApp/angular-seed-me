@@ -305,3 +305,34 @@ For more information on AngularJS please check out http://angularjs.org/
 [protractor]: https://github.com/angular/protractor
 [selenium]: http://docs.seleniumhq.org/
 [travis]: https://travis-ci.org/
+
+
+
+
+
+
+
+--- Readme for me
+
+-- Grunt
+
+Grunt install
+npm install -g grunt-cli grunt
+
+Install for each plugin grunt => version added automatically to package.json
+npm install grunt --save-dev
+npm install grunt-contrib-clean --save-dev
+...
+
+
+
+-- Bower
+
+Bower install
+npm install -g bower
+
+find package
+bower search packageName
+
+install package
+bower install packageName --save
