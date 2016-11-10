@@ -20,3 +20,10 @@ II.1 - cai dat :
 npm install -g karma
 
 
+III - Cai dat deployd site web https://github.com/deployd/deployd
+
+npm install deployd -g
+
+check bang lenh dpd -V
+
+
