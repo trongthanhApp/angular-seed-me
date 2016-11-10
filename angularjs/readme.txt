@@ -25,5 +25,31 @@ III - Cai dat deployd site web https://github.com/deployd/deployd
 npm install deployd -g
 
 check bang lenh dpd -V
+Sau do cai mongodb community
+roi add C:\Program Files\MongoDB\Server\3.2\bin vao $path
+
+
+IV - Chuong 6
+
+IV.1 - vao thu muc angularjs/deployd go lenh
+dpd create sportsstore
+
+IV.2 - de chay new server
+cd sportsstore
+dpd –d
+
+
+Neu muon chay voi port thi dung lenh sau
+dpd –p 5500 sportsstore\app.dpd
+dashboard
+
+
+IV.3 - url
+http://localhost:2403/dashboard/products/data/
+http://localhost:2403/products
+
+
+
+
 
 
