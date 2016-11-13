@@ -26,6 +26,8 @@ npm install deployd -g
 
 check bang lenh dpd -V
 Sau do cai mongodb community
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
+md data\db
 roi add C:\Program Files\MongoDB\Server\3.2\bin vao $path
 
 
