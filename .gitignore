@@ -7,3 +7,5 @@ tmp
 .idea
 angularjs/deployd
 *.iml
+.project
+.settings
