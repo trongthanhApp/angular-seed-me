@@ -2,9 +2,9 @@
 I - De chay server
 
 I.1 - cai dat :
-npm install connect
+npm install connect --save-dev
 
-npm install serve-static
+npm install serve-static --save-dev
 
 
 I.2 - Sau do go lenh
