@@ -12,6 +12,8 @@ node server.js
 
 Sau moi khi chuyen sang chuong khac, trong file server.js can chuyen ten chuong Chapter01 sang chuong moi, xoa dau cach
 
+url example
+http://localhost:5000/controller2.html
 
 II - De chay test
 

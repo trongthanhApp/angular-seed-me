@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="exampleApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Controller 2</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-theme.css.css">
+    <script src="angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/sunny/jquery-ui.min.css">
+
+    <script>
+        angular.module("exampleApp", [])
+                .controller("simpleCtrl", function ($scope) {
+
+                    $scope.city = "London";
+
+                    $scope.cities = ["London", "New York", "Paris"];
+
+                    $scope.getCountry = function (city) {
+                        switch (city) {
+                            case "London" : return "UK";
+                            case "New York" : return "USA";
+                        }
+                    }
+
+
+                });
+    </script>
+</head>
+<body>
+    <div class="well" ng-controller="simpleCtrl">
+
+        <div>
+            <label>Select a city</label>
+            <select ng-options="city as city for city in cities" ng-model="city"></select>
+        </div>
+
+        <div>
+            <p>The city is {{city}}</p>
+            <p>The country is: {{getCountry(city) || "Unknown"}}</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
