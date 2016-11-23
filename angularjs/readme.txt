@@ -63,3 +63,6 @@ cd angularjs
 karma init karma.config.js
 
 
+Launch karma test
+karma start karma.config.js
+
