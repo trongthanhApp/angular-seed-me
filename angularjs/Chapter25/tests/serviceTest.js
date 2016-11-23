@@ -1,4 +1,5 @@
-﻿describe("Service Tests", function () {
+﻿/*
+describe("Service Tests", function () {
 
     beforeEach(angular.mock.module("exampleApp"));
 
@@ -10,3 +11,4 @@
         });
     });
 });
+*/

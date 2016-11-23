@@ -1,4 +1,5 @@
-﻿describe("First Test", function () {
+﻿/*
+describe("First Test", function () {
 
     // Arrange (set up a scenario)
     var counter;
@@ -21,3 +22,4 @@
         expect(counter).toEqual(-1);
     })
 });
+*/

@@ -55,5 +55,11 @@ http://localhost:2403/products
 
 
 
+V - Chuong 25
+
+V.1 - Test karma
+
+cd angularjs
+karma init karma.config.js
 
 

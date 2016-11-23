@@ -1,3 +1,4 @@
+/*
 angular.module("exampleApp", [])
     .controller("defaultCtrl", function ($scope, $http, $interval, $timeout, $log) {
 
@@ -57,3 +58,4 @@ angular.module("exampleApp", [])
             }
         }
     });
+*/

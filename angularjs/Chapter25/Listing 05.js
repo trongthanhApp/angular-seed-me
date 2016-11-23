@@ -1,3 +1,4 @@
+/*
 describe("Controller Test", function () {
 
     // Arrange
@@ -23,3 +24,4 @@ describe("Controller Test", function () {
         expect(mockScope.counter).toEqual(1);
     });
 });
+*/

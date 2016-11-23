@@ -1,4 +1,5 @@
-﻿describe("Directive Tests", function () {
+﻿/*
+describe("Directive Tests", function () {
 
     var mockScope;
     var compileService;
@@ -27,3 +28,4 @@
     });
 
 });
+*/

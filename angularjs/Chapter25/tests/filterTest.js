@@ -1,4 +1,5 @@
-﻿describe("Filter Tests", function () {
+﻿/*
+describe("Filter Tests", function () {
 
     var filterInstance;
 
@@ -19,3 +20,4 @@
     });
 
 });
+*/

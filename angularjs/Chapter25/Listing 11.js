@@ -1,3 +1,4 @@
+/*
 describe("Controller Test", function () {
 
     // Arrange
@@ -71,3 +72,4 @@ describe("Controller Test", function () {
     });
 
 });
+*/

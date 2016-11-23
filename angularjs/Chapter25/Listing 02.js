@@ -1,3 +1,4 @@
+/*
 angular.module("exampleApp", [])
     .controller("defaultCtrl", function ($scope) {
 
@@ -7,3 +8,4 @@ angular.module("exampleApp", [])
             $scope.counter++;
         }
     });
+*/
