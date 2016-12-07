@@ -32,17 +32,14 @@
 
 <div class="panel panel-default row">
     <div class="col-md-3">
-        Categories
-        go
-        here
+        <a class="btn btn-block btn-default btn-lg">Home</a>
+        <a class="btn btn-block btn-default btn-lg" ng-repeat="item in data.products | orderBy:'category' | unique:'category'">{{item}}</a>
     </div>
     <div class="col-md-8">
         <div class="well" ng-repeat="item in data.products">
             <h3>
                 <strong>{{item.name}}</strong>
-                <span class="pull-right label label-primary">
-                        {{item.price | currency}}
-                </span>
+                <span class="pull-right label label-primary">{{item.price | currency}}</span>
             </h3>
             <span class="lead">{{item.description}}</span>
         </div>
@@ -57,9 +54,10 @@
 
 
 <script>
-    angular.module('sportsStore', []);
+    angular.module('sportsStore', ["customFilter"]);
 </script>
 
 <script src="controller/sportStore.js"></script>
+<script src="filter/customFilter.js"></script>
 </body>
 </html>
