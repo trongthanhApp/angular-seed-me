@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 
 
+
+
 </head>
 <body ng-controller="sportStoreCtrl">
 
@@ -30,13 +32,13 @@
     <a href="#" class="navbar-brand">SPORT STORE</a>
 </div>
 
-<div class="panel panel-default row">
+<div class="panel panel-default row" ng-controller="productListCtrl">
     <div class="col-md-3">
-        <a class="btn btn-block btn-default btn-lg">Home</a>
-        <a class="btn btn-block btn-default btn-lg" ng-repeat="item in data.products | orderBy:'category' | unique:'category'">{{item}}</a>
+        <a class="btn btn-block btn-default btn-lg" ng-click="selectCategory()">Home</a>
+        <a class="btn btn-block btn-default btn-lg" ng-repeat="item in data.products | orderBy:'category' | unique:'category'" ng-click="selectCategory(item)">{{item}}</a>
     </div>
     <div class="col-md-8">
-        <div class="well" ng-repeat="item in data.products">
+        <div class="well" ng-repeat="item in data.products | filter:categoryFilterFn">
             <h3>
                 <strong>{{item.name}}</strong>
                 <span class="pull-right label label-primary">{{item.price | currency}}</span>
@@ -46,11 +48,13 @@
     </div>
 </div>
 
+
 <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-route/angular-route.js"></script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
 
 
 <script>
@@ -59,5 +63,6 @@
 
 <script src="controller/sportStore.js"></script>
 <script src="filter/customFilter.js"></script>
+<script src="controller/productListController.js"></script>
 </body>
 </html>
