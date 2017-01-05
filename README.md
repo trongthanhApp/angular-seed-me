@@ -336,3 +336,8 @@ bower search packageName
 
 install package
 bower install packageName --save
+
+-- de chay app
+npm start
+
+
