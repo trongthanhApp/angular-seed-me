@@ -314,6 +314,9 @@ For more information on AngularJS please check out http://angularjs.org/
 
 --- Readme for me
 
+-- Set proxy for npm
+npm config set https-proxy http://login:password@proxy.fr.company.com:8000
+
 -- Grunt
 
 Grunt install
