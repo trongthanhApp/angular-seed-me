@@ -342,3 +342,9 @@ bower search packageName
 
 install package
 bower install packageName --save
+
+clean cache
+bower cache clean
+bower install
+
+
