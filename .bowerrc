@@ -1,3 +1,6 @@
 {
-  "directory": "app/bower_components"
+"http-proxy": "http://app.proxy.com:3121",
+"proxy": "http://app.proxy.com:3121",
+"strict-ssl": false,
+"directory": "app/bower_components"
 }
