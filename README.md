@@ -348,3 +348,10 @@ bower cache clean
 bower install
 
 
+
+
+-- MySQL installer
+mysql-installer-community-5.5.28.3.msi
+
+
+
